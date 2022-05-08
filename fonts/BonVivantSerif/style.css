@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Bon Vivant Family';
+    src: local('Bon Vivant Family Serif'), local('Bon-Vivant-Family-Serif'),
+        url('BonVivantSerif.woff2') format('woff2'),
+        url('BonVivantSerif.woff') format('woff'),
+        url('BonVivantSerif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

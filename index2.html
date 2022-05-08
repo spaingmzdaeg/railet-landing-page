@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Railet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body oncontextmenu="return false" onkeydown="return false">
+
+
+  <!-- NAVBAR-->
+  <nav class="navbar navbar-expand-sm navbar-light" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo_tr.png" alt="" width="200">
+      </a>
+
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+        <!-- <ul class="navbar-nav ms-auto"> -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#productos">Productos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#footer">Contactanos</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#">Registrar</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Entrar</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CAROUSEL-->
+  <!-- <div id="mainSlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval=1000> -->
+  <div id="mainSlider" class="carousel slide" data-ride="carousel" data-interval=2000>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="img/railet_slide_1_v2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item active">
+        <img src="img/railet_slide_2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/railet_slide_3.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div><!-- CAROUSEL-->
+
+  <!-- RIBBON-->
+  <div id="ribbon">
+    <div id="aviso" class="container w-50 pl-5 pr-5 rounded-lg">
+      <!-- slide -->
+      <div class="row align-items-center">
+        <div class="col-sm col-sm p-3" id="description">
+          <img src="img/maniqui_v2.png" class="w-75 mx-auto d-block" alt="...">
+        </div>
+
+        <div class="col-sm p-3 text-light text-center">
+          <p class="text-dark h3 d-flex justify-content-center">Bienvenid@</p>
+          <h4 id="railet-advice" class="h2 text-shadow">Railet Casa de Moda</h4>
+        </div>
+      </div><!-- SLIDE-->
+    </div>
+  </div><!-- RIBBON-->
+
+  <!-- SEPARATOR RIBBON-->
+  <div id="separador-manikin">
+    <div class="content bg-warning"></div>
+  </div>
+
+  <!-- anuncios-->
+  <div id="anuncios">
+    <div class="container-md p-5">
+
+      <div class="row pt-5">
+        <h3 class="text-center pb-5 pt-5 h1" id="productos">Productos</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <div class="card w-100 card-border border-dark mb-5">
+            <img src="img/vestido.png" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <p class="card-text text-white">Tenemos mejores vestidos para la ocasion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card w-100 card-border border-dark mb-5">
+            <img src="img/traje.png" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <p class="card-text text-white">Tenemos mejores trajes para la ocasion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card w-100 card-border border-dark mb-5">
+            <img src="img/calzadov2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <p class="card-text text-white">Contamos con el mejor calzado </p>
+            </div>
+          </div>
+        </div>       
+      </div>
+
+      <div class="row pt-5">
+        <h3 class="text-center pb-5 pt-5 h1" id="servicios">Servicios</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <div class="card w-100 card-border border-dark mb-5">
+            <img src="img/spa.jpeg" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <p class="card-text text-white">Contamos con servicio de spa</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card w-100 card-border border-dark mb-5">
+            <img src="img/esteticav2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <p class="card-text text-white">Contamos con servicio de estetica</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card w-100 card-border border-dark mb-5">
+            <img src="img/rentatrajesv3.png" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <p class="card-text text-white">Contamos con servicio de renta de trajes</p>
+              <button type="submit" value="www.google.com" class="btn btn-danger">Manual</button>
+              <button type="submit" class="btn btn-secondary">Videotutorial</button>
+            </div>
+          </div>
+        </div>       
+      </div>
+
+      <div class="row py-5">
+        <div class="col">
+          <h3 class="text-center" style="color: var(--bs-blue)"></h3>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-2"><a href="#"></a></div>
+        <div class="col-2"><a href="#"></a></div>
+        <div class="col-1"><a href="#"></a></div>
+        <div class="col-1"><a href="#"></a></div>
+        <div class="col-1"><a href="#"></a></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div id="separador-anuncios">
+    <div class="content bg-success"></div>
+  </div>
+
+  <div id="vestidos" class="px-5 pb-5 bg-success">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center text-dark text-shadow h1 mt-4">Conocer Catalogo de vestidos Railet</h2>
+      </div>
+      <div class="row row-cols-1 row-cols-2 row-cols-sm-2 row-cols-md-4">
+        <div class="col-sm">
+          <img src="img/dresses-manikies_3-removebg-preview.png" alt="" class="w-100 vestido">
+          <div class="text-center"><span class="vestido-name h5 p-2">Diseno A</span></div>
+        </div>
+        <div class="col-sm">
+          <img src="img/dresses-manikies_4-removebg-preview.png" alt="" class="w-100 vestido">
+          <div class="text-center"><span class="vestido-name h5 p-2">Diseno B</span></div>
+        </div>
+        <div class="col-sm">
+          <img src="img/dresses-manikies_2-removebg-preview.png" alt="" class="w-100 vestido">
+          <div class="text-center"><span class="vestido-name h5 p-2">Diseno C</span></div>
+        </div>
+        <div class="col-sm">
+          <img src="img/dresses-manikies_5-removebg-preview.png" alt="" class="w-100 vestido">
+          <div class="text-center"><span class="vestido-name h5 p-2">Diseno D</span></div>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col text-center">
+          <a href="#" class="link-dark">
+            <button class="btn btn-warning btn-lg rounded-pill p-3 font-weight-bold">Ver catalogo de Railet</button>
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+    <div id="separador-anuncios-footer">
+    </div>
+  </div>
+
+
+  <!-- Play Nintendo-->
+  <div id="conoce">
+    <div class="container-sm p-5">
+      <h3 class="text-center text-white h1">Railet Casa de Moda</h3>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-3 d-none d-md-block">
+          <img src="img/maniqui.png" class="w-100">
+        </div>
+        <div class="col-9">
+          <div class="row justify-content-md-center">
+            <div class="col p-1">
+              <div class="card bg-secondary text-white">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="img/spasincolor.png" class="w-100" alt="...">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">Servico de SPA</h5>
+                      <p class="card-text">Los mas novedosos tratamientos.</p>
+                    </div>
+                    <!--card-body-->
+                  </div>
+                  <!--col-->
+                </div>
+                <!--row-->
+              </div>
+              <!--CARD-->
+            </div>
+            <!--col-->
+
+            <div class="col p-1">
+              <div class="card bg-secondary text-white">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">Venta y Renta de trajes</h5>
+                      <p class="card-text">Los mejores a tu gusto</p>
+                    </div>
+                    <!--card-body-->
+                  </div>
+                  <div class="col-md-6">
+                    <img src="img/suit.png" class="w-100" alt="...">
+                  </div>
+                  <!--col-->
+                </div>
+                <!--row-->
+              </div>
+              <!--CARD-->
+            </div>
+          </div>
+          <div class="row  justify-content-md-center">
+            <div class="col p-1">
+              <div class="card bg-secondary text-white">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="img/estetica.png" class="w-100" alt="...">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">Estetica</h5>
+                      <p class="card-text">Contamos con salon de belleza.</p>
+                    </div>
+                    <!--card-body-->
+                  </div>
+                  <!--col-->
+                </div>
+                <!--row-->
+              </div>
+              <!--CARD-->
+            </div>
+            <div class="col p-1">
+              <div class="card bg-secondary text-white">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">Calzado</h5>
+                      <p class="card-text">Contamos con el mejor calzado</p>
+                    </div>
+                    <!--card-body-->
+                  </div>
+                  <div class="col-md-6">
+                    <img src="img/high-heels.png" class="w-100" alt="...">
+                  </div>
+                  <!--col-->
+                </div>
+                <!--row-->
+              </div>
+              <!--CARD-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+  <footer id="footer" class=" text-dark text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <img class="img-fluid" id="imgfooter" src="img/logo_tr.png">
+
+<br>
+            <br>
+        <div></div>
+
+        <h6>Railet
+            
+            Av.Universidad No.110
+            <br>
+             La Loma, Guadalupe, Zacatecas, Mexico
+             <br>
+            Telefono : 4925845848
+            <br>
+             
+          </h6>
+
+         
+          
+
+          <!-- <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul> -->
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+
+         
+          <!-- <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul> -->
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          
+
+         
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-dark text-uppercase mb-0">Redes Sociales</h5>
+
+          <!-- Facebook -->
+<a
+class="btn btn-primary btn-floating m-1"
+style="background-color: #3b5998;"
+href="https://www.instagram.com/railet_casademoda/"
+role="button"
+><i class="bi bi-facebook m-auto"></i
+></a>
+
+         <!-- Whatsapp -->
+         <a
+         class="btn btn-primary btn-floating m-1"
+         style="background-color: #3b9862;"
+         href="https://www.instagram.com/railet_casademoda/"
+         role="button"
+         ><i class="bi bi-whatsapp m-auto"></i
+         ></a>
+
+<!-- Twitter -->
+<a
+class="btn btn-primary btn-floating m-1"
+style="background-color: #55acee;"
+href="https://www.instagram.com/railet_casademoda/"
+role="button"
+><i class="bi bi-twitter m-auto"></i
+></a>
+
+
+
+<!-- Instagram -->
+<a
+class="btn btn-primary btn-floating m-1"
+style="background-color: #ac2bac;"
+href="https://www.instagram.com/railet_casademoda/"
+role="button"
+><i class="bi bi-instagram m-auto"></i
+></a>
+
+<!-- Linkedin -->
+
+
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+
+          
+
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <div class="row">
+        <div class="col-sm-12">
+          <p style="text-decoration:none;"> Derechos reservados©2022 <a href="" style="text-decoration:none;color:#fff;"> Railet </a></p>
+        </div>
+      </div>     
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
